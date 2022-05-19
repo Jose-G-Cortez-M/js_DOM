@@ -34,9 +34,15 @@ const entrada = document.getElementById('input');
 entrada.addEventListener('keydown', function(e) {
     console.log('presionaste la tecla: ' + e.key)
 });*/
+/*Elementos múltiples
 const nodos = []
 for (let i = 0; i < 80; i++) {
     const nodo = document.createElement('input');
     nodos.push(nodo)
 }
-document.body.append(...nodos)
+document.body.append(...nodos)*/
+const padre = document.getElementById('padre')
+const nieto = document.getElementById('nieto-dos')
+    //console.log(padre.children);
+    //console.log(nieto.nextElementSibling)
+console.log(padre.parentElement.parentElement)
