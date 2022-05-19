@@ -14,3 +14,23 @@ h1 {
     text-align: center;
     padding: 5px;
 }
+
+input {
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background: blue;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#caja {
+    background: red;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}

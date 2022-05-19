@@ -13,5 +13,30 @@ console.log(elemento);*/
 
 /*const abuelo = document.querySelector('ul.listas-cursos > li.list');
 console.log(abuelo.parentElement.parentElement);*/
-const hermanos = document.querySelector('ul.listas-cursos > li.list');
-console.log(hermanos.nextElementSibling);
+
+/*const hermanos = document.querySelector('ul.listas-cursos > li.list');
+console.log(hermanos.nextElementSibling);*/
+
+/*const enviar = document.getElementById('mensaje');
+
+function mensaje_uno() { alert('mensaje enviado') }
+
+function mensaje_dos() {
+    alert('mensaje guardado')
+
+}*/
+/*
+function evento() {
+    alert('el mouse esta en movimiento');
+}*/
+/*
+const entrada = document.getElementById('input');
+entrada.addEventListener('keydown', function(e) {
+    console.log('presionaste la tecla: ' + e.key)
+});*/
+const nodos = []
+for (let i = 0; i < 80; i++) {
+    const nodo = document.createElement('input');
+    nodos.push(nodo)
+}
+document.body.append(...nodos)
