@@ -24,3 +24,16 @@ boton_play.addEventListener('click', () => {
 boton_pause.addEventListener('click', () => {
     video_mp4.pause()
 })
+
+const nuevo = document.createElement('a'); //creación de la etiqueta
+//agregar atributos
+nuevo.className = 'clase'
+nuevo.id = 'nuevo_id'
+nuevo.setAttribute('href', '#')
+nuevo.textContent = 'nuevo elemento'
+
+//crear la constante donde voy agregar la etiqueta
+const nuevo_elemento = document.getElementById('barra')
+
+//montar el elemento dentro del navbar
+nuevo_elemento.appendChild(nuevo)
